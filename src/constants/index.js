@@ -77,44 +77,42 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "May 10, 2026",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-    image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+      "Building Modern Frontend Projects with React, Tailwind CSS, and GSAP",
+    image: "/images/blog2.png",
+    link: "https://github.com/nm-dk-kishan/Shaurya-Portfolio",
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-    image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    date: "May 16, 2026",
+    title:
+      "My Journey Learning DSA with C++ and the Love Babbar Playlist",
+    image: "/images/blog1.png",
+    link: "https://github.com/nm-dk-kishan/DSA-LoveBabbar-Cpp",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
+    date: "May 5, 2026",
+    title:
+      "How I Started My Full Stack and DevOps Journey as a B.Tech Student",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://www.linkedin.com/in/shaurya-shukla-coder/",
   },
 ];
 
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["React.js", "Next.js", "TypeScript", "Redux"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "GSAP", "CSS", "Bootstrap"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express", "NestJS"],
   },
   {
     category: "Database",
@@ -129,31 +127,31 @@ const techStack = [
 const socials = [
   {
     id: 1,
-    text: "Github",
+    text: "GitHub",
     icon: "/icons/github.svg",
-    bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    bg: "#141313",
+    link: "https://github.com/nm-dk-kishan",
   },
   {
     id: 2,
-    text: "Platform",
+    text: "LeetCode",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://leetcode.com/u/dontknow108/",
   },
   {
     id: 3,
-    text: "Twitter/X",
+    text: "Instagram",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://instagram.com/nm_dk_kishan_",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/shaurya-shukla-coder/",
   },
 ];
 
@@ -201,6 +199,10 @@ const gallery = [
   {
     id: 4,
     img: "/images/gal4.png",
+  },
+  {
+    id: 5,
+    img: "/images/gal5.png",
   },
 ];
 
@@ -381,7 +383,7 @@ const WORK_LOCATION = {
       ],
     },
   ],
-};
+}; 
 
 const ABOUT_LOCATION = {
   id: 2,
