@@ -96,7 +96,7 @@ const blogPosts = [
     date: "May 5, 2026",
     title:
       "How I Started My Full Stack and DevOps Journey as a B.Tech Student",
-    image: "/images/blog3.png",
+    image: "/images/linkedin.png",
     link: "https://www.linkedin.com/in/shaurya-shukla-coder/",
   },
 ];
@@ -409,7 +409,7 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/shaurya-1.png",
       description: [
         "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
