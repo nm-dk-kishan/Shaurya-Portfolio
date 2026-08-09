@@ -1,4 +1,5 @@
 import dayjs from "dayjs";
+import { useEffect, useState } from "preact/hooks";
 import { navIcons, navLinks } from "#constants";
 import useWindowStore from "#store/window";
 
@@ -6,6 +7,16 @@ import useWindowStore from "#store/window";
 const Navbar = () => {
 
     const { openWindow } = useWindowStore();
+
+    const[time,setTime] = useState(Date.now());
+
+    useEffect( () => {
+        const interval = setInterval(()=>{
+            setTime(Date.now());
+        },1000);
+
+        return ()=> clearInterval(interval);
+    },[])
     
   return (
     <nav>
@@ -33,7 +44,9 @@ const Navbar = () => {
                 ))}
             </ul>
 
-            <time>{dayjs().format("D MMM  h:mm A (ddd)")}</time>
+            <time>
+                {dayjs(time).format("D MMM  h:mm A (ddd)")}
+            </time>
         </div>
     </nav>
   );

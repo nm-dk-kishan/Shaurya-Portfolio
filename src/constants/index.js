@@ -95,7 +95,7 @@ const blogPosts = [
     id: 3,
     date: "May 5, 2026",
     title:
-      "How I Started My Full Stack and DevOps Journey as a B.Tech Student",
+      "My Linkedin Profile",
     image: "/images/linkedin.png",
     link: "https://www.linkedin.com/in/shaurya-shukla-coder/",
   },
