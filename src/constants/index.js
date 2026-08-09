@@ -135,8 +135,8 @@ const socials = [
   {
     id: 2,
     text: "LeetCode",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
+    icon: "/icons/leetcode.svg",
+    bg: "#e0910a",
     link: "https://leetcode.com/u/dontknow108/",
   },
   {
